@@ -1,0 +1,684 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Almarai", sans-serif;
+}
+
+
+
+body {
+  background-color: #f9f9f9;
+}
+
+.logo {
+  height: 46px;
+  width: 50px;
+}
+
+.nav-text {
+  font-size: 12px !important;
+  font-weight: bold !important;
+}
+
+.img-login {
+  height: 20px;
+  width: 20px;
+}
+
+.slider-background {
+  background: linear-gradient(173.68deg, #ffedf5 0%, #ffd5e7 100%);
+
+}
+
+.slider-background2 {
+  background: linear-gradient(174.76deg, #d3deff 0%, #a8baff 100%);
+
+}
+
+.slider-background3 {
+  background: linear-gradient(176.69deg, #f8f0d5 0%, #efdcab 100%);
+
+}
+
+.slider-background4 {
+  background: linear-gradient(175.24deg, #b2e8f0 0%, #7bccdc 100%);
+
+}
+
+.slider-title {
+  color: #915970;
+  font-family: Almarai;
+  font-size: 24px;
+  text-align: center;
+
+}
+
+.slider-text {
+  color: #915970;
+  font-family: Almarai;
+  font-size: 30px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.all-card {
+  position: relative;
+
+}
+
+.category-card-img {
+  max-width: 110px;
+  max-height: 100px;
+  position: absolute;
+  top: 18%;
+  left: 10%;
+}
+
+.category-card {
+  height: 140px;
+  width: 130px;
+  border-radius: 50%;
+  opacity: 0.3;
+}
+
+.category-card-text {
+  color: #555550;
+  font-family: Almarai;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.sub-title {
+  color: #272727;
+  font-family: Almarai;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 28px;
+}
+
+.shopping-now {
+  padding: 5px;
+  height: 35px;
+  width: 90px;
+  color: #272727;
+  text-align: center;
+  border: 1px solid #272727;
+  border-radius: 14px;
+}
+
+.shopping-now:hover {
+  background-color: #272727;
+  color: #f9f9f9;
+  cursor: pointer;
+}
+
+.discount-bgColor {
+  height: 130px;
+  background: radial-gradient(circle, #767676 0%, #4d4f50 100%, #494c4d 100%);
+  border-radius: 8px;
+}
+
+.discount-img {
+  max-width: 80%;
+  max-height: 130px;
+}
+
+.discount-title {
+  font-size: 19px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.prod-cardTitle {
+
+  color: #555550;
+  font-size: 17px;
+}
+
+.prod-cardRate {
+  width: 15px;
+  height: 15px;
+
+}
+
+
+.prod-cardRate-number {
+  font-size: 15px;
+  line-height: 30px;
+  color: #ffc107;
+  font-weight: bold;
+}
+.cat-rate {
+  color: #ffc107;
+  font-family: "Almarai";
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 19px;
+  text-align: right;
+}
+
+.prod-cardPrice {
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.footer-text {
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.catContainer-title {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.catHeader-text {
+  color: #979797;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 17px;
+  cursor: pointer;
+  line-height: 23px;
+  padding-top: 10px;
+}
+
+.catHeader-text:hover {
+  color: #4d4f50;
+}
+
+.catHeader {
+  height: 100%;
+  background-color: white;
+}
+
+.filterSub-title {
+  font-size: 13px;
+  font-weight: 400;
+  color: #555550;
+}
+
+.filter-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #4d4f50;
+}
+
+.allBrand-Title {
+  font-size: 27px;
+  font-weight: bold;
+  color: #4d4f50;
+}
+
+.product-gallary-card {
+  width: 370px;
+  height: 470px;
+  border-radius: 30px;
+  background-color: #ffffff;
+}
+
+.prodDet-title {
+  font-size: 13px;
+  font-weight: 700;
+  color: #979797;
+}
+
+.prodDet-text {
+  font-size: 14px;
+  font-weight: 500;
+  color: #4d4f50;
+}
+
+
+.rate-container {
+  height: 100%;
+  width: 100%;
+  padding-bottom: 12px;
+  border-radius: 7px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 2px 0 rgba(151, 151, 151, 0.5);
+}
+.prodDet-text-rate {
+  color: #ffc107;
+  font-size: 15px;
+}
+
+.rate-count {
+  color: #979797;
+  font-family: "Almarai";
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 23px;
+}
+.rate-description {
+  color: #555550;
+  font-family: "Almarai";
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 19px;
+  text-align: right;
+}
+.rate-name {
+  color: #555550;
+  font-family: "Almarai";
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 19px;
+}
+
+.product-cart-add {
+  cursor: pointer;
+  text-align: center;
+  /* height: 45px; */
+  border-radius: 9px;
+  border: none;
+  background-color: #272727;
+  color: #ffffff;
+  font-family: "Almarai";
+  font-size: 14px;
+  font-weight: normal;
+}
+.product-cart-add:hover {
+  color: #bdbaba !important;
+}
+.input-form {
+  height: 37px;
+  width: 100%;
+  border: 1px solid #979797;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+.input-form-area {
+  width: 100%;
+  border: 1px solid #979797;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+.circle-colors {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.prodDet-desc {
+  font-size: 14px;
+  color: #4d4f50;
+  font-weight: bold;
+}
+
+.prodDetail-price {
+  color: white;
+  background-color: #767676;
+  border-radius: 12px;
+  border: none;
+}
+
+.prodDetail-addCart {
+  color: white;
+  background-color: #272727;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+.cartItem-container {
+  width: 100%;
+  height: 250px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.cartItem-img {
+  height: 197px;
+  width: 130px;
+}
+
+.cartCheck {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+  background-color: white;
+
+}
+
+.cartCheck-inp {
+  width: 180px;
+  height: 45px;
+  text-align: center;
+}
+
+.cartCheck-btn {
+  background-color: #494c4d;
+  color: white;
+  padding: 5px;
+  font-size: 14px;
+  font-weight: 400;
+  border: none;
+
+}
+
+.cartCheck-price {
+  border: 1px solid #c0c0c0;
+  border-radius: 20px;
+  width: 230px;
+  margin-top: 15px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 13px;
+  color: #767676;
+}
+
+.cartCheck-purchase {
+  cursor: pointer;
+  text-align: center;
+  width: 20px;
+  border-radius: 9px;
+  border: none;
+  background-color: #272727;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.payMethod-container {
+  width: 100%;
+  height: 170px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.user-login {
+  height: 37px;
+  width: 375px;
+  border: 1px solid #979797;
+  border-radius: 8px;
+}
+
+.btn-login {
+  height: 46px;
+  width: 374px;
+  border-radius: 9px;
+  border: none;
+  color: white;
+  background-color: #272727;
+}
+
+.btn-login:hover {
+  color: rgb(206, 204, 204);
+}
+
+.register-inp {
+  width: 375px;
+  height: 38px;
+  border-radius: 8px;
+  border: 1px solid #767676;
+}
+
+.register-btn {
+  width: 375px;
+  height: 38px;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  margin-top: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-btn:hover {
+  color: #cac5c5;
+}
+
+.admin-sideBar {
+  width: 100%;
+  height: 560px;
+  background-color: white;
+}
+
+.admin-sideBar-text {
+  color: black;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.admin-sideBar-text:hover {
+  background-color: #272727;
+  color: white;
+}
+
+.adminCard-subtitle {
+  font-size: 17px;
+  font-weight: 500;
+  color: #979797;
+  cursor: pointer;
+}
+
+.admin-orders-card {
+  width: 100%;
+  height: 220px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.adminOrder-subTitle {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.orderCus-detail {
+  width: 100%;
+  height: 280px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 1px 2px 0 rgba(151, 151, 151, 0.5);
+}
+
+.select {
+  border: 1px solid black;
+  height: 50px;
+  border-radius: 15px;
+  font-size: 15px;
+  color: #767676;
+}
+
+.select-btn {
+  border-radius: 18px;
+
+}
+
+.select-btn:hover {
+  background-color: #272727;
+  color: white;
+}
+
+.select-subTitle {
+  font-size: 14px;
+  font-weight: 700;
+  color: #272727;
+  margin-left: 8px;
+}
+
+.select-answer-subTitle {
+  font-size: 14px;
+  color: #979797;
+  font-weight: bold;
+
+}
+
+.addBrand-title {
+  font-size: 23px;
+  font-weight: bold;
+  color: #272727;
+}
+
+.addBrand-inp {
+  width: 100%;
+  height: 38px;
+  margin-top: 15px;
+  border-radius: 8px;
+}
+
+.addBrand-save {
+  padding: 5px;
+  border-radius: 15px;
+  color: #494c4d;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.addBrand-save:hover {
+  background-color: #272727;
+  color: white;
+}
+
+.select {
+  box-sizing: border-box;
+  height: 40px;
+  color: #979797;
+  width: 100%;
+  border: 1px solid #979797;
+  border-radius: 8px;
+}
+
+#upload-photo {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+.color {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+
+
+
+.dropdown-toggle {
+  color: white !important;
+  font-size: 16px !important;
+  font-weight: bold !important;
+  margin: 0 10px !important;
+  margin-top: 14px !important;
+ 
+}
+
+.dropdown-menu {
+  background-color: #272727 !important;
+  color: white !important;
+}
+
+.dropdown-item {
+  color: white !important;
+  text-align: center !important;
+}
+.dropdown-item:hover {
+  color: #272727 !important;
+  background-color: white !important;
+}
+
+
+
+/* user// */
+.user-address-card {
+  height: 151px;
+  width: 100%;
+  border-radius: 7px;
+
+  background-color: #ffffff;
+  box-shadow: 0 1px 2px 0 rgba(151, 151, 151, 0.5);
+}
+.item-delete-edit {
+  color: #979797;
+  font-family: "Almarai";
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 30px;
+  text-align: right;
+  cursor: pointer;
+}
+
+.user-order {
+  height: 100%;
+  width: 100%;
+  border-radius: 7px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 2px 0 rgba(151, 151, 151, 0.5);
+}
+.order-title {
+  color: #272727;
+  font-family: "Almarai";
+  font-size: 16px;
+  font-weight: bold;
+}
+.cat-title {
+  color: #555550;
+  font-family: Almarai;
+  font-size: 14px;
+  font-weight: normal;
+  text-align: right;
+}
+.barnd-text {
+  color: #555550;
+  font-family: "Almarai";
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+.admin-side-text {
+  color: #272727;
+  font-family: "Almarai";
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 20px;
+  text-align: right;
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.admin-side-text:hover {
+  background-color: #272727;
+  color: white;
+  font-size: 14px;
+}
+.admin-content-text {
+  color: #555550;
+  font-family: Almarai;
+  font-size: 21px;
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: 28px;
+  text-align: right;
+}
+.btn-save {
+  border: none;
+  color: white;
+  height: 46px;
+  width: 150px;
+  border-radius: 9px;
+  background-color: #272727;
+}
+.btn-save:hover {
+  color: rgb(164, 164, 164);
+}
+.input-form {
+  height: 37px;
+  width: 100%;
+  border: 1px solid #979797;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
