@@ -46,10 +46,13 @@ useEffect(() => {
                 // navigate('/')
                 window.location.href='/'
             }, 1500);
-        } else {
+        } 
+        
+        
+         else {
             localStorage.removeItem("token")
             localStorage.removeItem("user")
-            if(res.data.errors[0] === 'Invalid email formate'){
+           if(res?.data?.message === "Incorrect email or password"){
                 localStorage.removeItem("token")
                 localStorage.removeItem("user")
                 notify("البيانات غير صحيحة","warn")
@@ -57,6 +60,10 @@ useEffect(() => {
 
             }
         }
+        // else if(res?.data?.message === "Incorrect email or password"){
+        // notify("معلومات الدخول غير صحيحة ","error")
+        // return
+        // }
     }
   }
 }, [loading])

@@ -56,7 +56,10 @@ const logOut = () => {
               </Dropdown.Toggle>
         
               <Dropdown.Menu>
-                <Dropdown.Item href="/user/allOrders">الصفحة الشخصية</Dropdown.Item>
+                {
+                                        user.role === "admin" ? (<Dropdown.Item  href="/admin/allproducts">لوحة التحكم</Dropdown.Item >) : (<Dropdown.Item  href="/user/profile">الصفحه الشخصية</Dropdown.Item >)
+                                    }
+                {/* <Dropdown.Item href="/user/allOrders">الصفحة الشخصية</Dropdown.Item> */}
                  <Dropdown.Divider />
                 <Dropdown.Item onClick={logOut} href="/">تسجيل الخروج</Dropdown.Item>
               </Dropdown.Menu>
